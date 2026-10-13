@@ -2,13 +2,13 @@
 
 body {
   font-family: "Segoe UI", Tahoma, sans-serif;
-  background: #eef4f7;
+  background: #f1f5fc;
   color: #1f2d3a;
   line-height: 1.5;
 }
 
 nav {
-  background: #0b6e77;
+  background: #2457c5;
   padding: 14px 24px;
   display: flex;
   align-items: center;
@@ -16,8 +16,8 @@ nav {
   flex-wrap: wrap;
 }
 nav .logo { color: #fff; font-size: 1.2rem; font-weight: 700; margin-right: auto; }
-nav a { color: #d6f0f2; text-decoration: none; padding: 6px 12px; border-radius: 6px; }
-nav a:hover, nav a.active { background: #fff; color: #0b6e77; }
+nav a { color: #dbe6fb; text-decoration: none; padding: 6px 12px; border-radius: 6px; }
+nav a:hover, nav a.active { background: #fff; color: #2457c5; }
 
 .container { max-width: 900px; margin: 28px auto; padding: 0 16px; }
 h1 { margin-bottom: 6px; }
@@ -33,7 +33,7 @@ h1 { margin-bottom: 6px; }
 
 .stats { display: flex; gap: 16px; flex-wrap: wrap; }
 .stat { flex: 1; min-width: 160px; text-align: center; }
-.stat .number { font-size: 2rem; font-weight: 700; color: #0b6e77; }
+.stat .number { font-size: 2rem; font-weight: 700; color: #2457c5; }
 
 form label { display: block; margin: 12px 0 4px; font-weight: 600; }
 form input, form select, form textarea {
@@ -45,12 +45,12 @@ form input, form select, form textarea {
   font-family: inherit;
 }
 form input:focus, form select:focus, form textarea:focus {
-  outline: 2px solid #0b6e77;
+  outline: 2px solid #2457c5;
   border-color: transparent;
 }
 button {
   margin-top: 16px;
-  background: #0b6e77;
+  background: #2457c5;
   color: #fff;
   border: none;
   padding: 10px 22px;
@@ -58,11 +58,11 @@ button {
   border-radius: 6px;
   cursor: pointer;
 }
-button:hover { background: #09565d; }
+button:hover { background: #1a428f; }
 
 table { width: 100%; border-collapse: collapse; }
 th, td { text-align: left; padding: 10px; border-bottom: 1px solid #e1e8ed; }
-th { background: #e3f1f3; }
+th { background: #e4ecfb; }
 .badge { padding: 3px 10px; border-radius: 12px; font-size: 0.85rem; }
 .badge.ok { background: #d8f3e3; color: #17683a; }
 .badge.wait { background: #fff1d1; color: #8a5a00; }
