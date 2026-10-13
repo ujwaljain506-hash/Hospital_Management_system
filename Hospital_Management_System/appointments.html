@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>City Care Hospital - Appointments</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <span class="logo">City Care Hospital</span>
+    <a href="index.html">Dashboard</a>
+    <a href="patients.html">Patients</a>
+    <a href="appointments.html" class="active">Appointments</a>
+  </nav>
+
+  <div class="container">
+    <h1>Appointments</h1>
+    <p class="subtitle">Book a visit with a doctor and view upcoming bookings.</p>
+
+    <div class="card">
+      <h2>Book appointment</h2>
+      <form>
+        <label for="patient">Patient name</label>
+        <input type="text" id="patient" required>
+
+        <label for="doctor">Doctor</label>
+        <select id="doctor">
+          <option>Dr. Mehta - Cardiology</option>
+          <option>Dr. Sharma - Orthopedics</option>
+          <option>Dr. Iyer - General Medicine</option>
+        </select>
+
+        <label for="date">Date</label>
+        <input type="date" id="date" required>
+
+        <label for="time">Time</label>
+        <input type="time" id="time" required>
+
+        <button type="submit">Book appointment</button>
+      </form>
+    </div>
+
+    <div class="card">
+      <h2>Upcoming appointments</h2>
+      <br>
+      <div class="table-wrap">
+        <table>
+          <tr><th>Patient</th><th>Doctor</th><th>Date</th><th>Time</th><th>Status</th></tr>
+          <tr><td>Ravi Kumar</td><td>Dr. Mehta</td><td>15 Oct 2026</td><td>10:00 AM</td><td><span class="badge ok">Confirmed</span></td></tr>
+          <tr><td>Sameer Khan</td><td>Dr. Iyer</td><td>15 Oct 2026</td><td>11:30 AM</td><td><span class="badge wait">Pending</span></td></tr>
+          <tr><td>Anita Desai</td><td>Dr. Sharma</td><td>16 Oct 2026</td><td>02:00 PM</td><td><span class="badge ok">Confirmed</span></td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
